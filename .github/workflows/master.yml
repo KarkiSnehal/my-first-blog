@@ -17,7 +17,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /autodeploy.swostikapokharel.com.np/
+          server-dir: home/swostika/autodeploy.swostikapokharel.com.np/
           exclude: |
               **/.git*
               **/.git*/**
